@@ -1,0 +1,53 @@
+section{
+
+	.container{
+		img{
+			max-width: 120%;
+		}
+	}
+
+	.floatleft{
+		max-width: 100%;
+
+		h3{
+			padding:$padding;
+			color:gray;
+			font-size:$titulo-caja;
+		}
+
+		h4{
+			padding:$padding;
+			color:$color-naranjo;
+			font-size:$titulo-cajas;
+		}
+	}
+
+	.abajodelafoto{
+		h4{
+			@include titulo2;
+		}
+	}
+}
+
+img{
+	margin:3% 0%;
+}
+
+section{
+	.caja-icono{
+		padding:2%;
+	}
+
+	.caja-gris{
+		background-color:#cccccc;
+		padding:2%;
+	}
+
+	.cadena{
+		h4{
+			padding:$padding;
+			color:$color-naranjo;
+			font-size:$titulo-caja;
+		}
+	}
+}

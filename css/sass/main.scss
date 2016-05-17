@@ -1,0 +1,22 @@
+@import "helpers/variables.scss";
+@import "helpers/miximis.scss";
+@import "base/global.scss";
+@import "layout/header.scss";
+@import "layout/footer.scss";
+@import "pages/home.scss";
+@import "pages/blog.scss";
+@import "pages/about.scss";
+@import "pages/portafolio.scss";
+@import "pages/contact.scss";
+@import "layout/responsive.scss";
+@import "materialize-src/sass/materialize.scss";
+
+
+*, h1, h2, h3, h4, h5, h6{
+
+	font-family:'bebasregular';
+}
+
+p {
+	font-family:'HelveticaNeue';
+}

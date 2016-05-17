@@ -1,0 +1,63 @@
+.home{
+
+	img{
+		width:800px;
+		background-size:cover;
+
+	}
+}
+
+section{
+
+	.floatleft{
+
+		h2{
+			@include titulo2;
+		}
+
+		a{
+			padding:2%;
+			background-color:$color-naranjo;
+			color:white;
+		}
+
+	}
+}
+
+.from_blog{
+
+	h2{
+		span{
+			@include titulo2;
+		}
+	}
+
+	.floatleft{
+		border: 1px solid gray;
+
+		img{
+			width: 280px;
+		}
+
+		h3{
+			padding:$padding;
+			color:gray;
+			font-size:$titulo-caja;
+		}
+
+		h4{
+			padding:$padding;
+			color:$color-naranjo;
+			font-size:$titulo-cajas;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+

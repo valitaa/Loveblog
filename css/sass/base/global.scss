@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'bebasregular';
+    src:url("../font/bebas__-webfont.woff");
+}
+
+@font-face {
+	font-family:'HelveticaNeue';
+    src:url("../font/HelveticaNeue.woff");
+}
+
+
+section{
+
+	.bordes{
+		background-color:$color-rosado;
+		height:90px;
+		@include border;
+	}
+	.container{
+		@include border;
+		background-color:$color-naranjo;
+		height:100px;
+		max-width:100%;
+
+	}
+}
+
+.derecha{
+	h4{
+		@include titulo2;
+
+		img{
+			/*max-width: 100%; */
+		    width: 145px;
+		    height: 20px;
+		    padding-left: 8%;
+		}
+	}
+
+	ul{
+		li{
+			a{
+				color:black;
+				font-size:$titulo-naranjo
+			}
+		}
+	}
+
+	.gallery{
+		img{
+			margin:2%;
+			float:left;
+		}
+	}
+}

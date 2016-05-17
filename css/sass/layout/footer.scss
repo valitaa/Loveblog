@@ -1,0 +1,20 @@
+footer{
+
+	.bordes{
+
+		.container{
+			background-color:#df6649;
+			height:400px;
+			max-width:100%;
+
+			h4{
+				@include h4;
+			}
+
+			p{
+				color:white;
+			}
+		}
+	}
+}
+

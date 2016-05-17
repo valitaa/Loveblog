@@ -1,0 +1,21 @@
+@mixin h4() {
+	color:white;
+	font-size:$titulo;
+	padding:1%;
+}
+
+@mixin titulo2() {
+	color:$color-naranjo;
+	font-size:$titulo-naranjo;
+	padding:1%;
+}
+
+@mixin border() {
+	border-left:15px solid white;
+	border-right:15px solid white;
+	
+}
+
+@mixin logo() {
+	font-size: 35px;
+}
